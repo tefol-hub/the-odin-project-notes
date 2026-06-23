@@ -105,3 +105,15 @@
 11. **How do you rename a directory or file?**
     By entering the command mv -i (optional to make shell ask for confirmation) followed by the current file or directory name followed by the new name of the file or directory. ie, mv -i [current-name] [new-name]
 
+
+## Setting up Git
+
+### Knowledge Check
+1. **What is Git?**
+   It is a file version control system.
+
+2. **What is GitHub?**
+   It is a service that allows you host programming projects online and manage them with git.
+
+3. **What authentication method are we setting up with Git: SSH or HTTPS?**
+   SSH
