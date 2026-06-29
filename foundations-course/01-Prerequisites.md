@@ -139,3 +139,39 @@ It helps with auditing their work and track changes they make to their code base
 6. **Why are Git and GitHub useful for a team of developers?**
 They allow for easy collaboration on a shared codebase whereby changes can easily be audited and merged.
 
+
+## Git Basics
+
+### Knowledge Check
+1. **How do you create a new repository on GitHub?**
+By clicking the + button on the top right of your github page and clicking on "New Repository".
+
+2. **How do you copy a repository onto your local machine from GitHub?**
+By navigating to your project directory in the terminal and entering "git clone git@github.com:repo-ssh-link.git".
+
+3. **What is the default name of your remote connection?**
+It is "origin".
+
+4. **Explain what origin is in git push origin main.**
+The "origin" refers or points to the specific remote that is connected to your project.
+
+5. **Explain what main is in git push origin main.**
+The "main" keyword refers to the main branch of your project.
+
+6. **Explain the two-stage system that Git uses to save files.**
+It first adds them to the staging area with the command "git add ." or "git add file-to-commit.txt", then create a snapshot of the file in the database with "git commit -m "Message explaining changes made"".
+
+7. **How do you check the status of your current repository?**
+By entering "git status".
+
+8. **How do you add files to the staging area in Git?**
+By entering the command "git add " followed by the file you want to add or the whole directory with a period(.).
+
+9. **How do you commit the files in the staging area and add a descriptive message?**
+With the command "git commit -m "descriptive message"".
+
+10. **How do you push your changes to your repository on GitHub?**
+With the command "git push origin main" which applies your changes specifically to the main branch.
+
+11. **How do you look at the history of your previous commits?**
+With the command "git log".
