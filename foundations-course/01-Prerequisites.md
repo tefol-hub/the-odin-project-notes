@@ -117,3 +117,25 @@
 
 3. **What authentication method are we setting up with Git: SSH or HTTPS?**
    SSH
+
+## Introduction to Git
+
+### Knowledge Check
+1. **What kind of program is Git?**
+It is a Version Control System that keeps track of any changes made and saved to a project.
+
+2. **What are the differences between Git and a text editor in terms of what they save and their record keeping?**
+A text editor saves the text editor keeps only the latest record of the text in a file whereas git keeps a record or snapshot of every single save along with each of the changes made to the file.
+
+3. **Does Git work at a local or remote level?**
+It works at a local level.
+
+4. **Does GitHub work at a local or remote level?**
+GitHub works at a remote level.
+
+5. **Why is Git useful for developers?**
+It helps with auditing their work and track changes they make to their code bases, which is especially useful if errors are made in the development process, whereby the developer can simply revert back to prior versions of the code.
+
+6. **Why are Git and GitHub useful for a team of developers?**
+They allow for easy collaboration on a shared codebase whereby changes can easily be audited and merged.
+
